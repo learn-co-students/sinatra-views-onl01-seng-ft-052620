@@ -7,3 +7,8 @@ require_relative './config/environment'
 task :console do
   Pry.start
 end
+
+task :sg do
+ puts "shotgun activatet" 
+ system "shotgun"
+end
